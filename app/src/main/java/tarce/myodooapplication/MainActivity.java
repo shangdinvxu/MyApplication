@@ -1,5 +1,6 @@
 package tarce.myodooapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.button)
     void setButton(View view) {
-        RequestFactory.getInstance().getUserInformation("shangdinvxu")
+/*        RequestFactory.getInstance().getUserInformation("shangdinvxu")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<User>() {
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onNext(User user) {
                         textView.setText(user.getName());
                     }
-                });
+                });*/
+    startActivity(new Intent(MainActivity.this, RecycleViewActivity.class));
+
     }
 }

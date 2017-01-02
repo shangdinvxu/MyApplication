@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyodooApplication.iml" filepath="$PROJECT_DIR$/MyodooApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PictureAPP.iml" filepath="$PROJECT_DIR$/PictureAPP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
